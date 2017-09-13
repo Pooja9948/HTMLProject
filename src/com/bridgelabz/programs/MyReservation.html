@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>My Reservation form
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="reservation.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</header>
+<body>
+<div class="container">
+ <form class="form" data-target="#demo" action="/action_page.php">
+
+      <div class="row">
+
+      <label class="col-sm-3" for="accomodation" text-align:left>Accomodation</label>
+        <select  class="col-sm-4">
+          <option value="RV">RV</option>
+          <option value="RV">RV</option>
+          <option value="RV">RV</option>
+        </select>
+
+      </div><br>
+      <div class="row">
+
+      <label class="col-xs-3"for="name">Name</label>
+        <select class="col-sm-3">
+          <option value="Mr">Mr</option><br>
+          <option value="Miss">Miss</option>
+          <option value="Mrs">Mrs</option>
+        </select>
+        <input class="col-sm-3" type="text" name="firstname" placeholder="firstname">
+        <input class="col-sm-3" type="text" name="lastname" placeholder="lastname">
+
+      </div><br>
+      <div class="row">
+
+      <label class="col-sm-3"for="guest">Guests</label>
+        <input class="col-sm-3" type="text" name="year" placeholder="18+ years">
+        <input class="col-sm-3" type="text" name="year" placeholder="2-17 years">
+        <input class="col-sm-3"   type="text" name="year" placeholder="< 2 years">
+
+       </div><br>
+      <div class="row">
+      <label class="col-sm-3" for="contact">Contact</label>
+
+        <input class="col-sm-4" type="text" name="email" placeholder="E-mail">
+      <input class="col-sm-4" type="number" name="phoneno" placeholder="Phone:(xxx)-xxx xxxx">
+    </div><br>
+      <div class="row">
+      <label class="col-sm-3" for="checkin">Checkin</label>
+        <input class="col-sm-3"  type="date">
+        <label class="col-sm-3" for="checkout">Checkout</label>
+          <input class="col-sm-3" type="date">
+      </div><br>
+      <div class="row">
+      <label class="col-sm-3" for="equipment">Equipment type</label>
+      <select class="col-sm-3" >
+          <option value="Travel trailer">Travel trailer</option>
+          <option value="Travel trailer">Travel trailer</option>
+          <option value="Travel trailer">Travel trailer</option>
+      </select>
+      <label class="col-sm-3" for="slide-outs">Slide-outs</label>
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider"></span>
+        </label>
+      </div><br>
+      <div class="row">
+        <div class="row-sm-4">
+          <label class="col-sm-3" for="required-service">Required Service</label>
+          <input type="text" name="firstname">
+        </div><br>
+        <div class="row-sm-4">
+          <label class="col-sm-3" for="comments">Pets</label>
+           <label class="switch">
+            <input type="checkbox">
+            <span class="slider"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="row"><br>
+      <label class="col-sm-3" for="comments">Comments</label>
+        <textarea rows="4" cols="50" >Additional Comments</textarea>
+      </div><br>
+      <div class="row"><br>
+         <input type="submit" class="red-text" value="Request Reservation">
+
+         <input type="submit" class="red-text1" value="Cancel">
+      </div>
+    </form>
+</div>
+</body>
+<script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
+</html>
